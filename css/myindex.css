@@ -1,0 +1,71 @@
+.clearfix{display:table}
+.pullLeft{float:left}
+.pullRight{float:right}
+.baseMsg-top-item{position:fixed;color:#fff;width:100%;height:120px;z-index:100;background-color:#192143}
+.baseMsg-top-item .company-search{float:left;height:60px;margin-left:100px;background-color:#151b42;margin-top:30px}
+.baseMsg-top-item .company-search .search-btn{position:absolute;margin-top:16px;width:60px;height:30px;border-right:1px solid #fff;background:url(../data-management/search.png) no-repeat 20px 4px}
+.baseMsg-top-item .company-search input{width:410px;height:60px;line-height:60px;border:none;color:#fff;font-size:20px;background-color:#151b42;padding-left:80px}
+.baseMsg-top-item .company-name{float:left;line-height:120px;font-family:SimHei;font-size:44px;color:#fff;margin-left:120px}
+.section{padding-top:120px;height:100%;background-color:#101433;overflow:hidden}
+.enterprise-msg-item{width:94%;height:100%;margin-left:35px;background:#101433 url(../data-management/map.jpg) no-repeat;color:#fff;font-family:"Microsoft YaHei";background-size:cover}
+.enterprise-msg-item .enterprise-base-msg{width:25%;height:100%}
+.ep-title{color:#8c8c8e;font-size:28px;padding:20px 0}
+.base-data-item{height:74%}
+.base-static{height:16.66%;background-color:rgba(21,28,61,.6);margin:0 0 3px 0}
+.b-label{padding:25px 0 22px 35px;color:#89b5d7;font-size:18px}
+.b-value{font-size:28px;color:#fff;font-weight:400;text-align:center;padding-bottom:50px}
+.enterprise-main-part{margin:0 30px;width:52%;height:100%}
+.enterprise-radiation{width:850px;position:relative}
+.radiation-value-item{width:850px;position:absolute;top:0}
+.grading-rule-explain{width:200px;height:43px;background:rgba(25,33,67,.6);font-size:16px;padding:10px;position:relative}
+.grading-rule-explain i{display:block;width:10px;height:7px;background:url(../data-management/etdfg.png) no-repeat;position:absolute;top:-7px}
+.index-item{width:125px;text-align:center}
+.radiation-index{font-size:30px;color:#fff}
+.radiation-index-text{font-size:18px;color:#a6daff}
+#font .active{font-size:44px}
+.current{font-size:24px}
+.commodity-index-rule,.credit-index-rule,.operating-index-rule{left:25px;top:15px}
+.active-index-rule,.comprehensive-ability-rule,.production-index-rule{left:-120px;top:15px}
+.active-index-rule i,.comprehensive-ability-rule i,.production-index-rule i{right:10px}
+.grading-rule{display:none}
+.production-index{top:22px;left:274px}
+.credit-index{top:20px;right:82px}
+.operating-index{top:176px;right:30px}
+.commodity-index{top:326px;right:126px}
+.comprehensive-ability{top:326px;left:316px}
+.active-index{top:174px;left:216px}
+.radiation-index-com{font-size:38px;margin-top:28px}
+.radiation-index-text-com{font-size:20px;color:#a6daff}
+.milestone-list{width:18%;height:75%}
+.mile-title{color:#8c8c8e;font-size:28px;padding:20px 0}
+.auto-msg{background-color:rgba(21,28,61,.6)}
+.auto-msg-list{margin-left:70px}
+.auto-msg-list:nth-child(1){padding-top:30px}
+.auto-msg-date{color:#89b5d7;font-size:18px;margin-bottom:5px}
+.base-static{height:16.66%}
+.auto-msg{height:100%}
+.auto-msg-list{height:12%}
+.radiation-list{position:relative;width:250px;position:absolute}
+.comprehensive-score{text-align:center;width:112px;height:132px;top:65px;left:0;background-color:#161d40}
+.radiation-list .index-item p{line-height:36px}
+.enterprise-address{margin-top:74px;width:100%;height:316px}
+.enterprise-address-top{width:100%;font-size:24px;color:#999;padding-bottom:16px}
+#allmap{border:20px solid #151c3d}
+#fp-nav ul li{display:block;width:20px;height:20px;margin:20px;position:relative}
+#fp-nav ul li a.active span{background:#94c2e6}
+#fp-nav ul li a span{top:2px;left:2px;width:20px;height:20px;border-radius:50%;position:absolute;z-index:1;background:#808393}
+
+.milestone-list{width: 18%;height:100%;}
+.mile-title{color:#8c8c8e;font-size:28px;padding:20px 0;}
+.mile-content{height:79%;background-color:rgba(21,28,61,.7);}
+.mile-line{height:100%;}
+.auth-steps{margin-top:30px;margin-left:30px;}
+.auth-steps-num{width:14px;height:14px;background-color:#101433;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius:50%;}
+.line{width:3px;height:79px;background-color:#101433;margin-left:5px;}
+
+.auto-msg-list{margin-left:40px;height:9%;list-style:none}
+.auto-msg-list:nth-child(1){padding-top:30px}
+.auto-msg-date{color:#89b5d7;font-size:18px;margin-bottom:5px;}
+
+.base-static {height: 17.46%;}
+.auto-msg {height: 100%;}

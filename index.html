@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>fullPage.js — 项目导航演示_dowebok</title>
+    <link rel="stylesheet" href="./css/jquery.fullPage.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/myindex.css">
+    <style>
+        #allmap {
+            margin: 0 auto;
+            height: 100%;
+        }
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=dGsBOv4znPcdiiq5E4E6yfex9rhSKGh1"></script>
+</head>
+
+<body>
+    <div class="baseMsg-top-item">
+        <div class="company-search">
+            <span class="search-btn"></span>
+            <input type="text" placeholder="搜索企业名称" />
+        </div>
+        <div class="company-name">
+            <p>广州启生信息技术有限公司</p>
+        </div>
+    </div>
+
+    <div id="dowebok">
+        <div class="section">
+
+            <div class="enterprise-msg-item clearfix">
+
+                <!--左-->
+                <div class="enterprise-base-msg pullLeft">
+                    <p class="ep-title">企业资料</p>
+                    <!--头-->
+                    <ul class="base-data-item">
+                        <li class="base-static">
+                            <div class="b-label">成立日期</div>
+                            <h5 class="b-value">2018-2-6</h5>
+                        </li>
+                        <li class="base-static">
+                            <div class="b-label">注册资本</div>
+                            <h5 class="b-value">3,000万</h5>
+                        </li>
+                        <li class="base-static">
+                            <div class="b-label">企业类型</div>
+                            <h5 class="b-value">有限责任公司</h5>
+                        </li>
+                        <li class="base-static">
+                            <div class="b-label">法人</div>
+                            <h5 class="b-value">方滨新</h5>
+                        </li>
+                        <li class="base-static">
+                            <div class="b-label">登记状态</div>
+                            <h5 class="b-value">续存</h5>
+                        </li>
+                        <li class="base-static">
+                            <div class="b-label">行业</div>
+                            <h5 class="b-value">科学研究和技术服务行业</h5>
+                        </li>
+                    </ul>
+                </div>
+                <!--左-->
+
+
+
+
+                <!--中-->
+                <div class="enterprise-main-part pullLeft">
+                    <div class="enterprise-radiation">
+                        <div class="main-rotate" style="transform:rotate(30deg);-ms-transform:rotate(30deg);-moz-transform:rotate(30deg);-webkit-transform:rotate(30deg);-o-transform:rotate(30deg);">
+                            <div id="main" style="height:360px;padding-left: 60px;"></div>
+                        </div>
+                        <div id="font" class="radiation-value-item">
+                            <div class="radiation-list production-index">
+                                <div class="index-item">
+                                    <p class="radiation-index">86</p>
+                                    <p class="radiation-index-text">生产指数</p>
+                                </div>
+
+                                <div class="grading-rule">
+                                    <div class="grading-rule-explain production-index-rule">
+                                        <i></i> 根据企业交易记录，模型计算出还贷能力并评分
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="radiation-list credit-index">
+                                <div class="index-item">
+                                    <p class="radiation-index">98</p>
+                                    <p class="radiation-index-text">信贷指数</p>
+                                </div>
+                                <div class="grading-rule">
+                                    <div class="grading-rule-explain credit-index-rule">
+                                        <i></i> 根据企业交易记录，模型计算出还贷能力并评分
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="radiation-list operating-index">
+                                <div class="index-item">
+                                    <p class="radiation-index">88</p>
+                                    <p class="radiation-index-text">运营指数</p>
+                                </div>
+                                <div class="grading-rule">
+                                    <div class="grading-rule-explain operating-index-rule">
+                                        <i></i> 根据企业交易记录，模型计算出还贷能力并评分
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="radiation-list commodity-index">
+                                <div class="index-item">
+                                    <p class="radiation-index">82</p>
+                                    <p class="radiation-index-text">商品指数</p>
+                                </div>
+                                <div class="grading-rule">
+                                    <div class="grading-rule-explain commodity-index-rule">
+                                        <i></i> 根据企业交易记录，模型计算出还贷能力并评分
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="radiation-list comprehensive-ability">
+                                <div class="index-item">
+                                    <p class="radiation-index">97</p>
+                                    <p class="radiation-index-text">综合能力</p>
+                                </div>
+                                <div class="grading-rule">
+                                    <div class="grading-rule-explain comprehensive-ability-rule">
+                                        <i></i> 根据企业交易记录，模型计算出还贷能力并评分
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="radiation-list active-index">
+                                <div class="index-item">
+                                    <p class="radiation-index">97</p>
+                                    <p class="radiation-index-text">活跃指数</p>
+                                </div>
+                                <div class="grading-rule">
+                                    <div class="grading-rule-explain active-index-rule">
+                                        <i></i> 根据企业交易记录，模型计算出还贷能力并评分
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="radiation-list comprehensive-score">
+                                <div class="index-item index-item-comprehensive">
+                                    <p class="radiation-index-com">97</p>
+                                    <p class="radiation-index-text-com">综合评分</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="enterprise-address">
+                        <div class="enterprise-address-top clearfix">
+                            <div class="enterprise-address-left pullLeft">地址</div>
+                            <div class="enterprise-address-right pullRight">广东广州市</div>
+                        </div>
+                        <div id="allmap"></div>
+                    </div>
+                </div>
+                <!--中-->
+
+
+
+
+
+                <!--右-->
+                <!--<div class="milestone-list pullLeft">
+						<p class="ep-title">里程碑</p>
+						<div class="auto-msg">
+							<div class="auto-msg-list">
+								<p class="auto-msg-date">2018-02-06</p>
+								<p class="auto-msg-complain">购买2,000.00神通金</p>
+							</div>
+							<div class="auto-msg-list">
+								<p class="auto-msg-date">2018-02-06</p>
+								<p class="auto-msg-complain">购买2,000.00神通金</p>
+							</div>
+							<div class="auto-msg-list">
+								<p class="auto-msg-date">2018-02-06</p>
+								<p class="auto-msg-complain">购买2,000.00神通金</p>
+							</div>
+							<div class="auto-msg-list">
+								<p class="auto-msg-date">2018-02-06</p>
+								<p class="auto-msg-complain">购买2,000.00神通金</p>
+							</div>
+							<div class="auto-msg-list">
+								<p class="auto-msg-date">2018-02-06</p>
+								<p class="auto-msg-complain">购买2,000.00神通金</p>
+							</div>
+							<div class="auto-msg-list">
+								<p class="auto-msg-date">2018-02-06</p>
+								<p class="auto-msg-complain">购买2,000.00神通金</p>
+							</div>
+							<div class="auto-msg-list">
+								<p class="auto-msg-date">2018-02-06</p>
+								<p class="auto-msg-complain">购买2,000.00神通金</p>
+							</div>
+							<div class="auto-msg-list">
+								<p class="auto-msg-date">2018-02-06</p>
+								<p class="auto-msg-complain">购买2,000.00神通金</p>
+							</div>
+						</div>
+					</div>-->
+                <div class="milestone-list pullLeft">
+                    <p class="mile-title">里程碑</p>
+                    <div class="mile-content">
+                        <div class="mile-line pullLeft">
+                            <div class="auth-steps complaint-steps">
+                                <div class="auth-steps-content">
+                                    <div class="auth-steps-num">
+                                        <em></em>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="auth-steps-num">
+                                        <em></em>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="auth-steps-num">
+                                        <em></em>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="auth-steps-num">
+                                        <em></em>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="auth-steps-num">
+                                        <em></em>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="auth-steps-num">
+                                        <em></em>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="auth-steps-num">
+                                        <em></em>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="auth-steps-num">
+                                        <em></em>
+                                    </div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="scrollDiv" class="auto-msg  pullLeft" style="height:100%;overflow:hidden">
+                            <ul style="height:100%;overflow:hidden;height: 133%;">
+                                <li class="auto-msg-list">
+                                    <p class="auto-msg-date">2018-02-06</p>
+                                    <p class="auto-msg-complain">购买2,000.00神通金</p>
+                                </li>
+                                <li class="auto-msg-list">
+                                    <p class="auto-msg-date">2018-02-06</p>
+                                    <p class="auto-msg-complain">购买2,000.00神通金</p>
+                                </li>
+                                <li class="auto-msg-list">
+                                    <p class="auto-msg-date">2018-02-06</p>
+                                    <p class="auto-msg-complain">购买2,000.00神通金</p>
+                                </li>
+                                <li class="auto-msg-list">
+                                    <p class="auto-msg-date">2018-02-06</p>
+                                    <p class="auto-msg-complain">购买2,000.00神通金</p>
+                                </li>
+                                <li class="auto-msg-list">
+                                    <p class="auto-msg-date">2018-02-06</p>
+                                    <p class="auto-msg-complain">购买2,000.00神通金</p>
+                                </li>
+                                <li class="auto-msg-list">
+                                    <p class="auto-msg-date">2018-02-06</p>
+                                    <p class="auto-msg-complain">购买2,000.00神通金</p>
+                                </li>
+                                <li class="auto-msg-list">
+                                    <p class="auto-msg-date">2018-02-06</p>
+                                    <p class="auto-msg-complain">购买2,000.00神通金</p>
+                                </li>
+                                <li class="auto-msg-list">
+                                    <p class="auto-msg-date">2018-02-06</p>
+                                    <p class="auto-msg-complain">购买2,000.00神通金</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="section">
+            <h3>第二屏</h3>
+            <p>请查看右边的圆圈</p>
+        </div>
+        <div class="section">
+            <h3>第二屏</h3>
+            <p>请查看右边的圆圈</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/jquery.fullPage.min.js"></script>
+<script src="./js/echarts.min.js"></script>
+<script src="js/data-echarts.js"></script>
+<script src="js/data-management.js"></script>
+<script src="js/data-baidu_map.js"></script>
+<script src="js/data-jq_scroll.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#scrollDiv").Scroll({
+			line: 1,
+			speed: 500,
+			timer: 3000,
+			up: "but_up",
+			down: "but_down"
+		});
+	});
+</script>
